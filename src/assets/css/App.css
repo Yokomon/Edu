@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+.navbar{
+    background-color:transparent!important;
+    display:flex;
+    position:relative;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+.main-header{
+    background-image: url(/images/main-bg.svg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+#signup{
+    color: #6a75ff;
+    border-radius: 50px;
+    background-color: #fff;
+}
+#signup:hover{
+    background-color: transparent;
+    color: #fff;
+}
+#login{
+    color: #fff;
+}
+#login:hover{
+    border-bottom: 1px solid #fff;
+}
+.brand{
+    border-bottom: 2px solid #fff;
+    animation-duration: 13s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.header-context {
+    width: 80%;
+    max-width: 350px;
+}
+.main-header a{
+    color: #fff;
+}
+.btn-accent{
+    background-color: #3e468f;
+    color: #fff !important;
+    border-bottom: 6px solid #0000002e;
+}
+.btn-rounded{
+    border-radius: 50px;
+}
+.feature-card .splash {
+    color: #3e468f;
+}
+.feature-card{
+    width:300px;
+}
+.upload-item {
+    overflow: hidden;
+    max-width: 300px;
+}
+.upload-preview {
+    height: 150px;
+    overflow-y: hidden;
+}
+.upload-body {
+    background-color: #fafafa;
+}
+.fade-overflow {
+    position: relative;
+    overflow: hidden;
+    line-height: 1.2em;
+    height: 2.4em;
+}
+.btn-outline-accent {
+    background-color: transparent;
+    border-color: #3e468f;
+    color: #3e468f
+}
